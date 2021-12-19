@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'LemonMilk';
+  src: url('https://uploads-ssl.webflow.com/61894646e9b304b739e0b094/618d4ed951453fa40f0af11d_LemonMilkMedium-mLZYV.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://uploads-ssl.webflow.com/61894646e9b304b739e0b094/61894646e9b3043256e0b0ae_Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

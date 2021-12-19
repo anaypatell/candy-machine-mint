@@ -1,3 +1,55 @@
-.App {
+body {
+  background-color: #f7f7f7;
+  color: #18183a;
+  font-family: LemonMilk;
+  font-size: 1.25rem;
+}
+
+main {
   text-align: center;
+  display: grid;
+
+  text-align: center;
+  place-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: LemonMilk;
+  font-size: 50px;
+  margin: 0.5rem 0;
+  margin-top: 1rem;
+}
+
+section {
+  padding: 4rem;
+  border-radius: 1rem;
+}
+section::after {
+  content: "";
+  background-image: url(./logo.png);
+  background-position: center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.subtitle{
+  max-width: 30rem;
+}
+
+.hero {
+  border-radius: 1rem;
+  width: 24rem;
+  height: 24rem;
+}
+
+#wallet-button {
+  position: fixed;
+  top: 3rem;
+  right: 3rem;
 }
